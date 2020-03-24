@@ -10,6 +10,7 @@ element a,z;
 //INTERFACE
 cout << "*************** \t Mass Calculator \t ***************" <<
 "\n\n\n" << " Type the atomic number A : ";
+    start:
 cin >> a;
 cout << "\n\n chosen element : ";
 switch(a)
@@ -58,6 +59,9 @@ case 11:
     cout << "Sodium " << "\n Atomic number (A) = " << a << "\n Atomic mass (Z) : 22.990"
     "\n\n";
     break;
+default:
+    cout << "Given number is out of Periodic Table of Chemistry Elements range";
+        goto start;
 }
 cout << "\n\n****************************************************************";
     cin.get();
