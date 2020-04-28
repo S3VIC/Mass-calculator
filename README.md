@@ -3,4 +3,4 @@ My name is Seweryn and I'm a nanostructeres engineering student. My programming 
 
 # Mass-calculator
 The aim of this project is to create a simple terminal app, mass calculator based on given numbers of chosen elements/isotopes.
-Language used C++.
+Language used C++. During coding I'm using the CodeBlocks environment on a Windows platform.
