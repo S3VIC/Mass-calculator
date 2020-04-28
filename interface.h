@@ -15,5 +15,6 @@ public:
     void menu_2();
     void menu_3();
     void exit_4();
+    bool back_to_menu();
     void interface_clear();
 };
