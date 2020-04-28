@@ -11,7 +11,6 @@ class Element
 public:
     Element(int aa);
      void info_general();
-     void info_type();
      void load_info();
 
 };
